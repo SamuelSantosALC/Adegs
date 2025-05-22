@@ -2,7 +2,7 @@
 require_once 'conexao.php';
 
 $host = "localhost";
-$db = "VKadega";
+$db = "crud";
 $user = "root";
 $pass = "";
 
