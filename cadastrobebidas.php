@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,7 @@
         <input type="submit" value="salvar" />
         <hr>
     </form>
-    <?php
+     <?php
     $pdo = new PDO('mysql:host=localhost;dbname=VKadega', 'root', '');
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $tipo = $_POST['Tipo'] ?? '';
@@ -39,6 +39,7 @@
             echo "Erro ao inserir: " . $e->getMessage();
         }
     }
-    ?>
+    ?> 
 </body>
 </html>
+-->
